@@ -3,7 +3,8 @@ import { useState, useEffect } from 'react';
 import { BarChart, Bar, PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 import { MessageSquare, Ticket, AlertCircle, CheckCircle, Clock, Filter, Send, X, Zap, Activity, TrendingUp } from 'lucide-react';
 
-const API_BASE = 'http://localhost:5000/api';
+const API_BASE = 'https://audience-query-system-jnws.onrender.com/api';
+
 const COLORS = ['#00d4ff', '#0099ff', '#6366f1', '#8b5cf6', '#ec4899', '#f59e0b'];
 
 function App() {
