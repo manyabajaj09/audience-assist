@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+
 # 🚀 Audience Query Management System
 
 ![Dashboard Preview](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)
